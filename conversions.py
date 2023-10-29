@@ -1,6 +1,6 @@
 """ 
     File with all the functions that store the 
-    logic and the algorithms for the code.
+    logic and the algorithms for the program.
 
     @author: rodrids
 
