@@ -1,7 +1,6 @@
 """
-    Conversor de número entre distintos sistemas númericos creado 
-    en Python con meros fines académicos y de aprendizaje, totalmente 
-    creada de cero y todos los cálculos creados a mano.
+    File with the "interface" of the program and the
+    function calls.
 
     @author: rodrids
 """
