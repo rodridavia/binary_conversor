@@ -83,8 +83,8 @@ def octalToDecimal(oct):
     return final
 
 def decimalToHexadecimal(dec):
-    coeficiente = num_conversor / 16
-    resto = num_conversor % 16
+    coeficiente = dec / 16
+    resto = dec % 16
     num_convertido = []
     num_convertido.append(resto)
 
@@ -116,7 +116,6 @@ def decimalToHexadecimal(dec):
     return resultado
 
 def hexadecimalToDecimal(hex):
-    num_str = [str(x) for x in hex]
     for index, value in enumerate(hex):
         if value =="A":
             hex[index] = 10
